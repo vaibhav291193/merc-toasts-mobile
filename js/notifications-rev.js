@@ -208,7 +208,7 @@ function initNotification(cssType, notificationContainer) {
     let element = document.getElementById(selectedElement);
     /* var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     if (isMobile) {
-        element.append(notificationContainer);
+        element.appendChild(notificationContainer);
     }
     else {
         element.appendChild(notificationContainer);
