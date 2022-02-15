@@ -216,7 +216,7 @@ function initNotification(cssType, notificationContainer) {
 
     let isMobile = window.matchMedia("only screen and (max-width: 640px)").matches;
     if (isMobile) {
-        element.appendChild(notificationContainer);
+        element.prepend(notificationContainer);
     }
     else {
         element.prepend(notificationContainer);
